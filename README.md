@@ -36,6 +36,10 @@ $ pip install -r requirements.txt
 
 Download the **[EMO-DB](http://emodb.bilderbar.info/download/download.zip)** and **[IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)** datasets (IEMOCAP requires permission to access). After downloading, extract the datasets into the `./data` directory.
 
+I have done the work on the EMO-DB dataset on Google Colab. The colab file is uploaded above.
+The work on the IEMOCAP dataset is done on the server (as GPU was needed in its computations).
+
+
 ---
 
 ## Training and Testing
