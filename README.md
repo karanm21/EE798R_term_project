@@ -1,6 +1,6 @@
 # Light-SERNet
 
-This repository contains my implementation of the paper "["Light-SERNet: A lightweight fully convolutional neural network for speech emotion recognition"](https://arxiv.org/abs/2110.03435)" as part of my course project EE798R. The original paper was accepted at ICASSP 2022.
+This repository contains my implementation of the paper "["Light-SERNet: A lightweight fully convolutional neural network for speech emotion recognition"](https://arxiv.org/abs/2110.03435) as part of my course project EE798R. The original paper was accepted at ICASSP 2022.
 
 ## Overview
 
