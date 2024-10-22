@@ -1,0 +1,10 @@
+                   precision    recall  f1-score   support
+
+            angry     0.7775    0.7316    0.7539      1103
+          sadness     0.7023    0.7574    0.7288      1084
+          neutral     0.6528    0.7090    0.6798      1708
+happiness_excited     0.7059    0.6339    0.6680      1636
+
+         accuracy                         0.7008      5531
+        macro avg     0.7096    0.7080    0.7076      5531
+     weighted avg     0.7031    0.7008    0.7007      5531
