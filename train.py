@@ -23,7 +23,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 tf.random.set_seed(hyperparameters.SEED)
 np.random.seed(hyperparameters.SEED)
