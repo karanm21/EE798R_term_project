@@ -68,7 +68,3 @@ sh run.sh
 Training results, including the confusion matrix and performance metrics, will be saved in the `./result` folder, and the best model will be stored in the `./model` folder.
 
 ---
-
----
-
-This updated README structure clearly outlines the steps needed to set up and run the code, while also detailing how to train the model and test it on datasets. Make sure to include the `requirements.txt`, all the necessary code files, and the PDF summary when you submit the project.
