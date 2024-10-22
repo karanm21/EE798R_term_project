@@ -121,27 +121,6 @@ Training results, including the confusion matrix and performance metrics, will b
 
 ---
 
-## Citation
-
-If you find this code useful for your research, please consider citing the original paper:
-
-```bibtex
-@inproceedings{aftab2022light,
-  title={Light-SERNet: A lightweight fully convolutional neural network for speech emotion recognition},
-  author={Aftab, Arya and Morsali, Alireza and Ghaemmaghami, Shahrokh and Champagne, Benoit},
-  booktitle={ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages={6912--6916},
-  year={2022},
-  organization={IEEE}
-}
-```
-
----
-
-### PDF Report (to be included)
-
-Your final repository should also include a **PDF (not exceeding 2 pages)**, which will summarize the implementation, results, and dataset description. This can be prepared in LaTeX (similar to previous submissions).
-
 ---
 
 This updated README structure clearly outlines the steps needed to set up and run the code, while also detailing how to train the model and test it on datasets. Make sure to include the `requirements.txt`, all the necessary code files, and the PDF summary when you submit the project.
