@@ -12,7 +12,7 @@ import hyperparameters
 
 
 
-#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 
 	
