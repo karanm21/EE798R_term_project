@@ -14,14 +14,6 @@ The model achieves superior performance on two benchmark datasets, **IEMOCAP** a
 
 ---
 
-## Demo
-
-You can test the model on the EMO-DB dataset using Google Colab:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AryaAftab/LIGHT-SERNET/blob/master/Demo_Light_SERNet.ipynb)
-
----
-
 ## Requirements
 
 To set up the environment and run the codes, first install the dependencies using the `requirements.txt` file:
@@ -48,8 +40,6 @@ $ pip install -r requirements.txt
 
 Download the **[EMO-DB](http://emodb.bilderbar.info/download/download.zip)** and **[IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)** datasets (IEMOCAP requires permission to access). After downloading, extract the datasets into the `./data` directory.
 
-For using **IEMOCAP**, follow the issue in [#3](../../issues/3).
-
 ---
 
 ## Training and Testing
@@ -67,31 +57,6 @@ $ python train.py -dn {dataset_name} \
                   -m {fuse mfcc feature extractor in exported tflite model}
 ```
 
-### Example: Training on EMO-DB dataset
-
-```bash
-$ python train.py -dn "EMO-DB" \
-                  -id 3 \
-                  -at "all" \
-                  -ln "focal" \
-                  -v 1 \
-                  -it "mfcc" \
-                  -c "disk" \
-                  -m false
-```
-
-### Example: Training on IEMOCAP dataset
-
-```bash
-$ python train.py -dn "IEMOCAP" \
-                  -id 7 \
-                  -at "impro" \
-                  -ln "cross_entropy" \
-                  -v 1 \
-                  -it "mfcc" \
-                  -c "disk" \
-                  -m false
-```
 
 To run all experiments, simply execute the `run.sh` script:
 
@@ -101,19 +66,6 @@ sh run.sh
 
 ---
 
-## MFCC Feature Fusing (New Feature)
-
-Light-SERNet allows you to run the model without TensorFlow by incorporating the MFCC feature extractor as a layer. The trained model can be exported in TensorFlow Lite format, and it takes raw audio input as a vector.
-
-To enable this feature during training:
-
-```bash
-$ python train.py -dn "EMO-DB" \
-                  -id 3 \
-                  -m True
-```
-
----
 
 ## Results
 
