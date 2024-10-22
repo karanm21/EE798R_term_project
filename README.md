@@ -1,7 +1,3 @@
-Here’s a modified version of the README that aligns with the requirements for your course project:
-
----
-
 # Light-SERNet
 
 This repository contains the TensorFlow 2.x implementation of the paper ["Light-SERNet: A lightweight fully convolutional neural network for speech emotion recognition"](https://arxiv.org/abs/2110.03435), accepted in ICASSP 2022.
