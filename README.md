@@ -25,8 +25,8 @@ To set up the environment and run the codes, first install the dependencies usin
 ### Installation
 
 ```bash
-$ git clone https://github.com/AryaAftab/LIGHT-SERNET.git
-$ cd LIGHT-SERNET/
+$ git clone https://github.com/karanm21/EE798R_term_project.git
+$ cd EE798R_term_project/
 $ pip install -r requirements.txt
 ```
 
