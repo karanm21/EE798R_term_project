@@ -16,7 +16,7 @@ To set up the environment and run the codes, first install the dependencies usin
 
 ### Required Libraries
 
-- TensorFlow >= 2.3.0
+- TensorFlow-gpu >= 2.3.0
 - NumPy >= 1.19.2
 - Tqdm >= 4.50.2
 - Matplotlib >= 3.3.1
