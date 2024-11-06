@@ -57,7 +57,6 @@ $ python train.py -dn {dataset_name} \
                   -m {fuse mfcc feature extractor in exported tflite model}
 ```
 
-
 To run all experiments, simply execute the `run.sh` script:
 
 ```bash
@@ -66,6 +65,11 @@ sh run.sh
 
 ---
 
+## Course Project: Phase 2
+
+For Phase 2 of the course, modified files have been uploaded to this repository. All results from the Phase 2 modifications are stored in a folder named `phase2` within the `results` directory.
+
+---
 
 ## Results
 
